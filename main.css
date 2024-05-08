@@ -1,0 +1,121 @@
+body{
+    
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff66b3;
+    font-style: bold;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Courier New';
+    background-color: #ffcce6;
+    border: 0;
+    border-radius: 100px;
+    color: #ff339c;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+img{
+    padding: 1px;
+    width: 400px;
+    height: 400px;
+}
+#datechu{
+    color: #ff339c;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 50px;
+}
+#sub{
+    font-size: 20px;
+}
+#movingButton{
+    background-color: red;
+    color: white;
+}
+#yepp{
+    background-color: green;
+    color: white;
+}
+
+
+
+#submit{
+    font-size: 25px;
+    border-radius: 5px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: green;
+}
+#phu{
+    font-size: 25px;
+    border-radius: 5px;
+    
+}
+#phu:hover{
+    cursor: pointer;
+    background-color: green;
+}
+#chinh{
+    font-size: 25px;
+    border-radius: 5px;
+    
+}
+#chinh:hover{
+    cursor: pointer;
+    background-color: green;
+}
+button{
+    padding:10px;
+}
+body{
+    background-color: #fff2e6;
+}
+
+
+    .food-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Căn giữa theo chiều dọc */
+    }
+    
+    .food-item {
+        margin-bottom: 20px; /* Khoảng cách giữa các mục */
+        text-align: center; /* Căn giữa nội dung */
+    }
+    
+    .food-item img {
+        max-width: 100%; /* Ảnh không vượt quá chiều rộng của cha */
+    }
+ 
+
+ /* Thiết lập giao diện thành một cột trên các thiết bị di động */
+.food-gridd {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* căn giữa các phần tử theo chiều ngang */
+    margin: auto 0;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     /* Khoảng cách giữa mỗi cặp ảnh và checkbox */
+}
+
+.food-item img {
+    max-width: 100%; /* Ảnh không vượt quá chiều rộng của cha */
+}
+
